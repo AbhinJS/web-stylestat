@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: #240046;
+
+}
+#photo {
+    width: 100px;
+    height: 100px;
+    border: 5px solid gray ;
+    border-radius: 20%;
+}
+
+#name{
+        color: #ffffff;
+        text-shadow: 0 0 2px rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: 300px;
+        line-height: normal;
+}
+#college{
+    color: #ffffff;
+}
+#dev {
+    color: #ffff;
+}
+.last{
+    display: flex;
+    justify-content:centre;
+    gap: 40px;
+}
+.project {
+    height: 200px;
+    width: 400px;
+    background-color: #023e7d;
+    
+
+}
+.hobbie {
+    height: 200px;
+    width: 400px;
+    background-color: #023e7d;
+    
+}
+.achievements {
+    height: 200px;
+    width: 400px;
+    background-color: #023e7d;
+    
+}
+
+ul {
+    text-align: left;
+  
+}
+li{
+    color: #ffffff;
+}
