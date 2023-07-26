@@ -29,23 +29,32 @@ body {
     gap: 40px;
 }
 .project {
+   width: 200px;
     height: 200px;
-    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 30px;
     background-color: #023e7d;
-    
+    flex: 1 1 120px;
 
 }
 .hobbie {
+    width: 200px;
     height: 200px;
-    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 30px;
     background-color: #023e7d;
-    
+    flex: 1 1 120px;
 }
 .achievements {
+    width: 200px;
     height: 200px;
-    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 30px;
     background-color: #023e7d;
-    
+    flex: 1 1 120px;
 }
 
 ul {
@@ -54,4 +63,27 @@ ul {
 }
 li{
     color: #ffffff;
+}
+.last{  
+    display:flex;
+    flex: wrap;
+    justify-content: center;
+}
+@media all and (max-width:600px){
+    .last{
+        flex-wrap: wrap;
+    }
+    .project{
+        flex:1 1 50%;
+
+    }
+    .hobbie{
+        flex:1 1 50%;
+
+    }
+    /* flexbasis,flex-shrink ,flex-grow*/
+    .achievements{
+        flex:1 1 50%;
+
+    }
 }
